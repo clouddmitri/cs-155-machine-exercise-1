@@ -11,6 +11,7 @@
 "+"             { return PLUS; }
 "-"             { return MINUS; }
 "*"             { return TIMES; }
+"^"             { return POWER; }                                           /* Rule for ^ */
 "/"             { return DIVIDE; }
 "("             { return LPAREN; }
 ")"             { return RPAREN; }
